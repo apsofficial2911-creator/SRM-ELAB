@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{int billamt, amtgiven;
+scanf("%d\n",&amtgiven);
+scanf("%d",&billamt);
+if (billamt == 0)
+printf("Error: Division by zero.");
+else{
+    printf("Quotient: %d\n",amtgiven/billamt);
+    printf("Remainder: %d\n",amtgiven%billamt);
+}
+	return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{int unitconsumed, costperunit;
+scanf("%d %d",&unitconsumed,&costperunit);
+if(unitconsumed <= 500 && costperunit >= 2 && costperunit <= 10 && unitconsumed >=1){
+    printf("%ld",(long int)pow(unitconsumed,costperunit));
+}
+else
+printf("Invalid input");
+
+	return 0;
+}
